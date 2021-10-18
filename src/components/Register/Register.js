@@ -1,9 +1,7 @@
 import React from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
-import useAuth from '../../contexts/useAuth';
 
-const Login = () => {
-    const {signInUsingGoogle} = useAuth();
+const Register = () => {
     return (
         <div>
             <Form className='m-4'>
@@ -27,14 +25,14 @@ const Login = () => {
 
                 <Form.Group as={Row} className="mb-3">
                     <Col sm={{ span: 10, offset: 2 }}>
-                    <Button type="submit">Log In</Button>
+                    <Button type="submit">Register</Button>
                     </Col>
                 </Form.Group>
             </Form>
             <h1>or</h1>
-        <Button onClick={signInUsingGoogle} type="submit">Google Sign In</Button>
+            <Button type="submit">Google Sign In</Button>
         </div>
     );
 };
 
-export default Login;
+export default Register;

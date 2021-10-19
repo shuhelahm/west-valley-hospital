@@ -1,0 +1,9 @@
+.serviceDetail{
+    height: 800px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.493);
+}
+.serviceDetailImg{
+    height: 250px;
+}

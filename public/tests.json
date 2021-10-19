@@ -1,32 +1,32 @@
 [
     { "key":1,
       "name": "Corona Virus Test",
-      "cost": 10,
+      "price": 10,
       "img":"https://image.freepik.com/free-photo/close-up-doctor-holding-coronavirus-test_23-2148767273.jpg"
     },
     { "key":2,
       "name": "Ultrasonography",
-      "cost": 15,
-      "img":"https://www.freepik.com/free-photo/ultrasound-scanning-machine-clinic_15762460.htm#page=1&query=ultrasonography&position=3&from_view=search"
+      "price": 15,
+      "img":"https://image.shutterstock.com/image-photo/ultrasonography-usg-hand-holding-ultrasound-600w-767581897.jpg"
     },
     { "key":3,
       "name": "ECG",
-      "cost": 12,
+      "price": 12,
       "img":"https://image.freepik.com/free-vector/red-heart-with-heartbeat-line-medical-background_1017-26835.jpg"
     },
     { "key":4,
       "name": "Diabetes",
-      "des": 10,
+      "price": 10,
       "img":"https://image.freepik.com/free-vector/diabetes-elements-collection_1212-405.jpg"
     },
     { "key":5,
       "name": "Blood Pressure",
-      "cost": 14,
+      "price": 14,
       "img":"https://image.freepik.com/free-photo/blood-pressure-meter-stethoscope-marble-surface-high-quality-photo_114579-68064.jpg"
     },
     { "key":6,
       "name": "MRI",
-      "cost": 15,
-      "img":"https://image.freepik.com/free-vector/colored-flat-medical-mri-composition-mri-room-hospital-treatment-vector-illustration_1284-30685.jpg"
+      "price": 15,
+      "img":"https://images.unsplash.com/photo-1581595220057-eefa8c4add1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
     }
 ]

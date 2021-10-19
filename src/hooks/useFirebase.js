@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut,createUserWithEmailAndPassword } from "firebase/auth";
 import { useState } from "react";
 import initializeAuthentication from "../components/Login/Firebase/firebase.init";
 
@@ -6,6 +6,8 @@ initializeAuthentication();
 
 const useFirebase = () =>{
     const [user, setUser] = useState({});
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     const auth = getAuth();
 
@@ -19,14 +21,39 @@ const useFirebase = () =>{
 
     const logOut = () =>{
         signOut(auth)
-        .then(() => {});
+        .then(() => {
+            setUser({})
+        });
     }
+
+    const handleEmailChange = e =>{
+        setEmail(e.target.value)
+    }
+    const handlePasswordChange = e =>{
+        setPassword(e.target.value)
+    }
+
+    const handleRegistrantion = e =>{
+        createUserWithEmailAndPassword(auth,email,password)
+        .then(result => {
+            const user = result.user;
+        })
+        e.preventDefault();
+    }
+
+    
+
+    
+
+   
 
     return{
         user,
         logOut,
-        signInUsingGoogle
-
+        signInUsingGoogle,
+        handleRegistrantion,
+        handleEmailChange,
+        handlePasswordChange
     }
 }
 

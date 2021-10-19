@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../contexts/useAuth';
 
 const Login = () => {
-    const { signInUsingGoogle, handleEmailChange , handlePasswordChange ,handleLogin, logOut, error } = useAuth();
+    const { signInUsingGoogle, handleEmailChange , handlePasswordChange ,handleLogin, error } = useAuth();
     return (
         <div>
+          <h1 className='my-4'>Login Here</h1>
             <div className='m-5'>
             <form  onSubmit={handleLogin}>
   <div class="row mb-3">

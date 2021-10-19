@@ -10,6 +10,7 @@ const ServiceDetails = () => {
     }, [])
     return (
         <div className='row w-75 mx-auto my-5'>
+            <h1 className='my-4'>Get Appointment Here</h1>
         {
             serviceDetails.map(serviceDetail => <ServiceDetail 
             key={serviceDetail.key}

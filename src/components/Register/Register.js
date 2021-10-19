@@ -6,6 +6,7 @@ const Register = () => {
     const {handleEmailChange , handlePasswordChange,handleRegistrantion, signInUsingGoogle, error} = useAuth();
     return (
         <div>
+          <h1 className='my-4'>Register Here</h1>
             <div className='m-5'>
             <form  onSubmit={handleRegistrantion}>
   <div class="row mb-3">

@@ -25,8 +25,8 @@ const Register = () => {
   <button type="submit" class="btn btn-primary">Register</button>
   <p className='my-2'><Link to='/login'>Already registered? Login here.</Link></p>
   <h2>or</h2>
-  <button className='btn btn-warning' onClick={signInUsingGoogle}>Google Sign In</button>
 </form>
+<button className='btn btn-warning' onClick={signInUsingGoogle}>Google Sign In</button>
 </div>
             
         </div>

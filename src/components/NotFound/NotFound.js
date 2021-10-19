@@ -4,7 +4,7 @@ import './NotFound.css';
 const NotFound = () => {
     return (
         <div>
-            <img className='notfound-img w-100' src="https://media.istockphoto.com/photos/error-404-3drendering-page-concept-picture-id1302333331?s=612x612" alt="" />
+            <img className='notfound-img w-75' src="https://image.freepik.com/free-vector/error-404-concept-landing-page_52683-12757.jpg" alt="" />
         </div>
     );
 };

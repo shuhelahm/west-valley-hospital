@@ -10,6 +10,8 @@ import Tests from './components/Tests/Tests';
 import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import AboutUs from './components/AboutUs/AboutUs';
+import Register from './components/Register/Register';
 
 
 
@@ -29,11 +31,14 @@ function App() {
           <Route path="/tests">
             <Tests></Tests>
           </Route>
+          <Route path="/aboutus">
+            <AboutUs></AboutUs>
+          </Route>
           <Route path="/login">
             <Login></Login>
           </Route>
           <Route path="/register">
-            <Login></Login>
+            <Register></Register>
           </Route>
           <Route exact path="/">
             <Home></Home>

@@ -1,0 +1,44 @@
+.about-us-banner{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-us-mission{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.director-container{
+    grid-template-columns: repeat(3, 1fr);
+} 
+
+.director {
+    box-shadow: 5px 4px 3px rgba(128, 128, 128, 0.363);
+    border: 10px;
+}
+
+.director-img{
+    height: 300px;
+}
+
+/* media queries */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .director-container{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .about-us-banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-us-mission{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .director-container{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+}
+

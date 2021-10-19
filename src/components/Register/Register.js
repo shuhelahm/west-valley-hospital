@@ -1,43 +1,33 @@
 import React from 'react';
-import { Button, Col, Form, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import useAuth from '../../contexts/useAuth';
 
 const Register = () => {
-    const {createUserWithEmailAndPassword, handleEmailChange , handlePasswordChange,handleRegistrantion} = useAuth();
+    const {handleEmailChange , handlePasswordChange,handleRegistrantion, signInUsingGoogle, error} = useAuth();
     return (
         <div>
-            <Form className='m-4' onSubmit={handleRegistrantion}>
-                <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
-                    <Form.Label column sm={2}>
-                    Email
-                    </Form.Label>
-                    <Col sm={10}>
-                    <Form.Control onBlur={handleEmailChange} type="email" placeholder="Email" />
-                    </Col>
-                </Form.Group>
-
-                <Form.Group as={Row} className="mb-3" controlId="formHorizontalPassword">
-                    <Form.Label column sm={2}>
-                    Password
-                    </Form.Label>
-                    <Col sm={10}>
-                    <Form.Control onBlur={handlePasswordChange} type="password" placeholder="Password" />
-                    </Col>
-                </Form.Group>
-
-                <Form.Group as={Row} className="mb-4">
-                    <Col sm={{ span: 10, offset: 2 }}>
-                    <Button type="submit" onClick={createUserWithEmailAndPassword}>Register</Button>
-                    </Col>
-                </Form.Group>
-                <Form.Group as={Row} className="mb-4">
-                    <Col sm={{ span: 10, offset: 2 }}>
-                    <Button type="submit" >Already registered?</Button>
-                    </Col>
-                </Form.Group>
-            </Form>
-            <h1>or</h1>
-            <Button type="submit">Google Sign In</Button>
+            <div className='m-5'>
+            <form  onSubmit={handleRegistrantion}>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input onBlur={handleEmailChange} type="email" class="form-control" id="inputEmail3"/>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input onBlur={handlePasswordChange} type="password" class="form-control" id="inputPassword3"/>
+    </div>
+  </div>
+  <p className='text-danger'>{error}</p>
+  <button type="submit" class="btn btn-primary">Register</button>
+  <p className='my-2'><Link to='/login'>Already registered? Login here.</Link></p>
+  <h2>or</h2>
+  <button className='btn btn-warning' onClick={signInUsingGoogle}>Google Sign In</button>
+</form>
+</div>
+            
         </div>
     );
 };

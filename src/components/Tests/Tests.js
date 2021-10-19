@@ -11,6 +11,7 @@ const Tests = () => {
 
     return (
         <div className='row w-75 mx-auto my-5'>
+            <h1 className='mb-5'>Medical Tests Available</h1>
            {
                tests.map( test => <Test
                key={test.key}

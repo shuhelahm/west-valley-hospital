@@ -1,9 +1,10 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../contexts/useAuth';
 
 const Login = () => {
-    const { signInUsingGoogle, handleEmailChange , handlePasswordChange ,handleLogin, error } = useAuth();
+    const { signInUsingGoogle, handleEmailChange , handlePasswordChange ,handleLogin, error, logOut, user } = useAuth();
     return (
         <div>
           <h1 className='my-4'>Login Here</h1>
@@ -22,11 +23,14 @@ const Login = () => {
     </div>
   </div>
   <p className='text-danger'>{error}</p>
-  <button type="submit" class="btn btn-primary">Login</button>
+  {/* <button type="submit" class="btn btn-primary">Login</button> */}
+  <button type="submit" className='btn btn-danger' as={Link} to="/servicedetails">Login</button>
   <p className='my-2'><Link to='/register'>New user? Register here.</Link></p>
   <h2>or</h2>
 </form>
 <button className='btn btn-warning' onClick={signInUsingGoogle}>Google Sign In</button>
+
+  <button className='btn btn-danger' onClick={logOut}>Logout</button>
 </div>
         </div>
     );

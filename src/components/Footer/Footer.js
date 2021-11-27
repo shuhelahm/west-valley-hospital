@@ -26,7 +26,7 @@ const Footer = () => {
                         </ul>
                     </div>
             </div>
-            <p>Copyright <span >&copy;</span> || West Valley Hospital</p>
+            <p>Copyright 2021<span >&copy;</span> || West Valley Hospital</p>
         </div> 
     );
 };

@@ -7,7 +7,7 @@ const Login = () => {
     const { signInUsingGoogle, handleEmailChange , handlePasswordChange ,handleLogin, error, logOut, user } = useAuth();
     return (
         <div>
-          <h1 className='my-4'>Login Here</h1>
+          <h1 className='my-4'>Sign in Here</h1>
             <div className='m-5'>
             <form  onSubmit={handleLogin}>
   <div class="row mb-3">

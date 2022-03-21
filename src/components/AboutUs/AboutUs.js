@@ -3,16 +3,16 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <div className='w-75 mx-auto'>
+        <div className='about-us-container mx-auto'>
             <h1 className='my-4'>About Us</h1>
             <div className='about-us-banner my-5 d-grid'>
                 <div className='mx-2'>
-                    <h1>West Valley Hospital</h1>
-                    <h3>GET A WORLD CLASS HEALTH SERVICE</h3>
-                    <p>WVH has all the characteristics of a world-class hospital with wide range of services and specialists, equipments and technology, ambience and service quality. The hospital is a showcase of synergy of medical technology and advances in ICT Division through paperless medical records. The skilled nurses, technologists and administrators of West Valley Hospital, aided by state-of-the-art equipments, provide a congenial infrastructure for the medical professionals in providing healthcare of international standards.</p>
+                    <h2>West Valley Hospital</h2>
+                    <h6>GET A WORLD CLASS HEALTH SERVICE</h6>
+                    <p>WVH has all the characteristics of a world-class hospital with wide range of services and specialists, equipments and technology, ambience and service quality. The hospital is a showcase of synergy of medical technology and advances in ICT Division through paperless medical records.</p>
                     </div>
                 <div className='mx-2'>
-                    <img className='w-100' src="https://img.freepik.com/free-photo/doctors-pushing-emergency-stretcher-bed-corridor_107420-63715.jpg?size=626&ext=jpg" alt="" />
+                    <img src="https://img.freepik.com/free-photo/doctors-pushing-emergency-stretcher-bed-corridor_107420-63715.jpg?size=626&ext=jpg" alt="" />
                 </div>
             </div>
             <div className='about-us-mission m-5 d-grid'>

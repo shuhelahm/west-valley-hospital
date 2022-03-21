@@ -1,5 +1,17 @@
+
+.about-us-container{
+    width: 80%;
+}
+
 .about-us-banner{
     grid-template-columns: repeat(2, 1fr);
+    text-align: justify;
+}
+.about-us-banner p{
+    font-size: 14px;
+}
+.about-us-banner img{
+    width: 100%;
 }
 
 .about-us-mission{

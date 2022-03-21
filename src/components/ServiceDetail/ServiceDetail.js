@@ -7,7 +7,7 @@ const ServiceDetail = ({serviceDetail}) => {
         <div className="col-lg-4 col-sm-6">
             <div className="serviceDetail">
                 <img className='w-100 serviceDetailImg' src={img} alt="" />
-                <h1>{name}</h1>
+                <h6>{name}</h6>
                 <p>{about}</p>
                 <button className='btn btn-warning'>Get Appointment</button>
             </div>

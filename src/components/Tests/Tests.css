@@ -1,10 +1,10 @@
-.sevices-container{
+.tests-container{
     width: 80%;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .sevices-container{
+    .tests-container{
         width: 95%;
     }
     
@@ -12,7 +12,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .sevices-container{
+    .tests-container{
         width: 95%;
     }
 }

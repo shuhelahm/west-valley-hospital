@@ -4,7 +4,7 @@ import './Test.css';
 const Test = ({test}) => {
     const {name, img, price} = test;
     return (
-        <div className='col-lg-4 col-sm-6'>
+        <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
             <div className='test'>
                 <img className='test-img w-100' src={img} alt="" />
                 <h2>{name}</h2>

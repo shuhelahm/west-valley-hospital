@@ -24,13 +24,11 @@ const Login = () => {
   </div>
   <p className='text-danger'>{error}</p>
   {/* <button type="submit" class="btn btn-primary">Login</button> */}
-  <button type="submit" className='btn btn-danger' as={Link} to="/servicedetails">Login</button>
+  <button type="submit" className='btn btn-primary' as={Link} to="/servicedetails">Login</button>
   <p className='my-2'><Link to='/register'>New user? Register here.</Link></p>
   <h2>or</h2>
 </form>
 <button className='btn btn-warning' onClick={signInUsingGoogle}>Google Sign In</button>
-
-  <button className='btn btn-danger' onClick={logOut}>Logout</button>
 </div>
         </div>
     );

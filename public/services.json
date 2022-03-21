@@ -1,42 +1,42 @@
 [
     { "key":1,
       "name": "Prof. Dr. Pran Gopal Datta",
-      "about": "Prof. Dr. Pran Gopal Datta is a Ear, Nose & Throat Specialist & Head Neck Surgeon doctor in Dhaka. His qualification is MBBS, MCPS, ACORL, PhD, MSc (Audiology), FCPS (ENT), FRCS (Glasgow). He is a Professor in the Department of ENT at Bangabandhu Sheikh Mujib Medical University Hospital. He regularly provides treatment to his patients at Green Life Hospital, Dhaka. Practicing hour of Prof. Dr. Pran Gopal Datta at Green Life Hospital, Dhaka is 8am to 11am & 4pm to 8pm (Closed: Tuesday, Thursday & Friday)",
+      "about": "Prof. Dr. Pran Gopal Datta is a Ear, Nose & Throat Specialist & Head Neck Surgeon doctor in Dhaka. His qualification is MBBS, MCPS, ACORL, PhD, MSc (Audiology), FCPS (ENT), FRCS (Glasgow).",
       "img":"https://image.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg"
     },
     { "key":2,
       "name": "Prof. Dr. M.N. Huda",
-      "about": "Prof. Dr. M.N. Huda is a Expert Dermatologist, Sexologist & Venereologist doctor in Dhaka. His qualification is MBBS (DMC), DDV (DU), FCPS (Skin & Sex). He is a Professor (Ex) in the Department of Dermatology & Venereology at Dhaka Medical College & Hospital. He regularly provides treatment to his patients at Popular Diagnostic Center, Uttara. Practicing hour of Prof. Dr. M.N. Huda at Popular Diagnostic Center, Uttara is 9am to 12pm & 4.30pm to 10pm (Sun & Tue).",
+      "about": "Prof. Dr. M.N. Huda is a Expert Dermatologist, Sexologist & Venereologist doctor in Dhaka. His qualification is MBBS (DMC), DDV (DU), FCPS (Skin & Sex).",
       "img":"https://us.123rf.com/450wm/rido/rido1704/rido170400095/76465313-portrait-of-smiling-doctor-with-stethoscope-around-his-neck-at-medical-clinic-happy-smiling-senior-d.jpg?ver=6"
     },
     { "key":3,
       "name": "Dr. Muhammad Hassan Ali Khan",
-      "about": "Dr. Muhammad Hassan Ali Khan is a Skin, Allergy, STD, Leprosy Specialist & Surgeon doctor in Dhaka. His qualification is MBBS (Dhaka), DDV (Vienna). He is a Consultant in the Department of Dermatology & Venereology at Islami Bank Hospital, Mirpur. He regularly provides treatment to his patients at Islami Bank Hospital, Mirpur. Practicing hour of Dr. Muhammad Hassan Ali Khan at Islami Bank Hospital, Mirpur is 11am to 1pm (Closed: Friday).",
+      "about": "Dr. Muhammad Hassan Ali Khan is a Skin, Allergy, STD, Leprosy Specialist & Surgeon doctor in Dhaka. His qualification is MBBS (Dhaka), DDV (Vienna).",
       "img":"https://image.freepik.com/free-photo/doctor-with-co-workers-analyzing-x-ray_1098-581.jpg"
     },
     { "key":4,
       "name": "Dr. Ummay Habiba Sumi",
-      "about": "Dr. Ummay Habiba Sumi is a Skin, Hair Transplant, Sex Specialist & Cosmetic Surgeon doctor in Dhaka. Her qualification is MBBS, DDV (DU), Fellowship in Hair Transplants Surgery (Singapore). She is a Chief Consultant in the Department of Dermatology & Hair Transplant at Dr. Sumi,s Hair & Skin Care Center. She regularly provides treatment to her patients at Dr. Sumi,s Hair & Skin Care Center. Practicing hour of Dr. Ummay Habiba Sumi at Dr. Sumi,s Hair & Skin Care Center is 3pm to 8pm (Closed: Friday).",
+      "about": "Dr. Ummay Habiba Sumi is a Skin, Hair Transplant, Sex Specialist & Cosmetic Surgeon doctor in Dhaka. Her qualification is MBBS, DDV (DU), Fellowship in Hair Transplants Surgery (Singapore).",
       "img":"https://image.freepik.com/free-photo/front-view-covid-recovery-center-female-doctor-with-stethoscope_23-2148847896.jpg"
     },
     { "key":5,
       "name": "Dr. Md. Nasiruddin Molla Bulbul",
-      "about": "Dr. Md. Nasiruddin Molla Bulbul is a Skin, Hair & Sexual Diseases Specialist doctor in Dhaka. His qualification is MBBS (DU), MCPS (Dermatology), DDV (BSMMU). He is a Consultant in the Department of Dermatology & Venereology at Islami Bank Hospital, Mugda. He regularly provides treatment to his patients at Islami Bank Hospital, Mugda. Practicing hour of Dr. Md. Nasiruddin Molla Bulbul at Islami Bank Hospital, Mugda is 10am to 12.30pm & 6pm to 9pm (Closed: Friday).",
+      "about": "Dr. Md. Nasiruddin Molla Bulbul is a Skin, Hair & Sexual Diseases Specialist doctor in Dhaka. His qualification is MBBS (DU), MCPS (Dermatology), DDV (BSMMU).",
       "img":"https://image.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg"
     },
     { "key":6,
       "name": "Dr. Farhana Qayum",
-      "about": "Dr. Farhana Qayum is a Skin, Allergy, Hair & Sexual Diseases Specialist doctor in Dhaka. Her qualification is MBBS, MCPS, FCPS (Skin & VD). She is a Consultant in the Department of Dermatology & Venereology at BRB Hospital, Dhaka. She regularly provides treatment to her patients at BRB Hospital, Dhaka. Practicing hour of Dr. Farhana Qayum at BRB Hospital, Dhaka is 10am to 7pm (Closed: Friday).",
+      "about": "Dr. Farhana Qayum is a Skin, Allergy, Hair & Sexual Diseases Specialist doctor in Dhaka. Her qualification is MBBS, MCPS, FCPS (Skin & VD).",
       "img":"https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
     },
     { "key":7,
       "name": "Dr. Md. Hasanuzzaman",
-      "about": "Dr. Md. Hasanuzzaman is a Brain, Stroke, Nerve, Medicine & Neuromedicine Specialist doctor in Chittagong. His qualification is MBBS, FCPS (Medicine), MD (Neurology). He is a Associate Professor & Head in the Department of Neuromedicine at Chittagong Medical College & Hospital. He regularly provides treatment to his patients at CSCR Hospital, Chittagong. Practicing hour of Dr. Md. Hasanuzzaman at CSCR Hospital, Chittagong is 7pm to 11pm (Closed: Thursday & Friday).",
+      "about": "Dr. Md. Hasanuzzaman is a Brain, Stroke, Nerve, Medicine & Neuromedicine Specialist doctor in Chittagong. His qualification is MBBS, FCPS (Medicine), MD (Neurology).",
       "img":"https://image.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg?1"
     },
     { "key":8,
       "name": "Prof. Dr. Aparna Das",
-      "about": "Prof. Dr. Aparna Das is a Medicine & Diabetes Specialist doctor in Dhaka. Her qualification is MBBS, FCPS (Medicine), Md. (Internal Medicine), DEM (Birdem). She is working as a Medicine & Diabetes Specialist doctor in Dhaka Medical College & Hospital. She regularly provides treatment to her patients at Popular Diagnostic Center, Shantinagar. Practicing hour of Prof. Dr. Aparna Das at Popular Diagnostic Center, Shantinagar is 6pm to 8pm (Closed: Friday).",
+      "about": "Prof. Dr. Aparna Das is a Medicine & Diabetes Specialist doctor in Dhaka. Her qualification is MBBS, FCPS (Medicine), Md. (Internal Medicine), DEM (Birdem).",
       "img":"https://image.freepik.com/free-photo/portrait-doctor_144627-39390.jpg"
     }
     

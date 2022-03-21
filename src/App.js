@@ -12,6 +12,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import AboutUs from './components/AboutUs/AboutUs';
 import Register from './components/Register/Register';
+import Services from './components/Services/Services';
 
 
 
@@ -22,6 +23,9 @@ function App() {
         <BrowserRouter>
         <Header></Header>
         <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
           <Route path="/home">
             <Home></Home>
           </Route>
@@ -34,15 +38,16 @@ function App() {
           <Route path="/aboutus">
             <AboutUs></AboutUs>
           </Route>
+          <Route path="/services">
+            <Services></Services>
+          </Route>
           <Route path="/login">
             <Login></Login>
           </Route>
           <Route path="/register">
             <Register></Register>
           </Route>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
+          
           <Route path="**">
             <NotFound></NotFound>
           </Route>

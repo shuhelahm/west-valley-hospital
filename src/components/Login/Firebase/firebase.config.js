@@ -1,10 +1,11 @@
+// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBc5covk_PGUSEH9M-YAHS1cytYMu1iS2E",
-    authDomain: "west-valley-hospital.firebaseapp.com",
-    projectId: "west-valley-hospital",
-    storageBucket: "west-valley-hospital.appspot.com",
-    messagingSenderId: "678802270204",
-    appId: "1:678802270204:web:e10e0b1ce56e970f067479"
-  };
+  apiKey: "AIzaSyCgmVTApmyBoJeNBdEnreEVCERvw38vsiI",
+  authDomain: "west-valley-hospital-a06ea.firebaseapp.com",
+  projectId: "west-valley-hospital-a06ea",
+  storageBucket: "west-valley-hospital-a06ea.appspot.com",
+  messagingSenderId: "200793331170",
+  appId: "1:200793331170:web:03fcac1f952c3cc1f115bb"
+};
 
 export default firebaseConfig;

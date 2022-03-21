@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../contexts/useAuth';
+import './Header.css';
 
 const Header = () => {
   const { user, logOut } = useAuth();
@@ -9,7 +10,7 @@ const Header = () => {
     return (
             <>
   <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Container>
+    <Container className='menu-container'>
     <Navbar.Brand href="/home">West Valley Hospital</Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">

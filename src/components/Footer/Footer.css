@@ -1,10 +1,14 @@
 /* footer section css */
 
 .footer-section{
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+.footer-container{
     width: 90%;
     grid-template-columns: repeat(3, 1fr);
-    background-color: #212529c9;
-    border-radius: 10px;
+    background-color: darkslategrey;
 }
 .footer-address ul, .footer-contact ul, .footer-branch ul{
     list-style: none;
@@ -14,14 +18,14 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .footer-section{
+    .footer-container{
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    .footer-section{
+    .footer-container{
         grid-template-columns: repeat(1, 1fr);
     }
 }

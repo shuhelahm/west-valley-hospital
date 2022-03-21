@@ -3,8 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
-            <div className='footer-section p-3 m-auto my-2 text-white d-grid'>
+        <footer>
+        <div className='footer-section text-white'>
+            <div className='footer-container p-3 m-auto my-2 d-grid'>
                     <div className='footer-address'>
                         <h2>West Valley Hospital</h2>
                         <p>West Valley Hospital has all the characteristics of a world-class hospital with wide range of services and specialists, equipments and technology, ambience and service quality.</p>
@@ -28,6 +29,7 @@ const Footer = () => {
             </div>
             <p>Copyright 2021<span >&copy;</span> || West Valley Hospital</p>
         </div> 
+        </footer>
     );
 };
 

@@ -1,16 +1,27 @@
+import { Card, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import React from 'react';
-import './Test.css';
 
 const Test = ({test}) => {
     const {name, img, price} = test;
     return (
-        <div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-            <div className='test'>
-                <img className='test-img w-100' src={img} alt="" />
-                <h2>{name}</h2>
-                <h4>Price: $ {price}</h4>
-            </div>
-        </div>
+        <Grid item xs={4} sm={4} md={4}>
+            <Card>
+                <CardMedia
+                 component="img"
+                 style={{
+                     width: '100%',
+                     height: '350px'
+                     
+                 }}
+                 image={img}
+                 alt="Test Image"
+                />
+                <CardContent>
+                <Typography>{name}</Typography>
+                <Typography>Price: $ {price}</Typography>
+                </CardContent>    
+            </Card>
+        </Grid>
     );
 };
 

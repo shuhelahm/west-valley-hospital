@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material';
+import { Container, Grid, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import Test from '../Test/Test';
 import './Tests.css';
@@ -12,16 +12,19 @@ const Tests = () => {
     }, []);
 
     return (
-        <div className='tests-container row mx-auto my-5'>
+        <Container>
             <Typography variant='h4' sx={{mb:4, fontWeight: 'bold'}}>
             Medical Tests Available
             </Typography>
-           {
-               tests.map( test => <Test
-               key={test.key}
-               test={test}></Test>)
-           }
-        </div>
+            <Grid container spacing={2} xs={4} sm={8} md={12}>
+                {
+                tests.map( test => <Test
+                key={test.key}
+                test={test}></Test>)
+                }
+            </Grid>
+           
+        </Container>
     );
 };
 

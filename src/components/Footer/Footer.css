@@ -1,15 +1,5 @@
 /* footer section css */
 
-.footer-section{
-    width: 100%;
-    background-color: darkslategrey;
-}
-
-.footer-container{
-    width: 90%;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: darkslategrey;
-}
 .footer-address ul, .footer-contact ul, .footer-branch ul{
     list-style: none;
 }

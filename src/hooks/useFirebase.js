@@ -36,11 +36,16 @@ const useFirebase = () =>{
 
     const handleRegistrantion = e =>{
         e.preventDefault();
-        
+        if(password.length < 6){
+            setError('Password should be at least 6 characters.')
+            return
+        }
         createUserWithEmailAndPassword(auth,email,password)
         .then(result => {
             const user = result.user;
             setError('');
+            alert('Successfully registration completed.')
+            e.target.reset();
         })
         .catch(error=>{
             setError(error.message);
@@ -52,7 +57,8 @@ const useFirebase = () =>{
         signInWithEmailAndPassword(auth, email, password)
   .then((result) => {
     const user = result.user;
-    console.log(user)
+    alert('Successfully logged in')
+            e.target.reset();
   })
   .catch(error=>{
     setError(error.message);

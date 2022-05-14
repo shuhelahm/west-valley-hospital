@@ -27,16 +27,6 @@ const Services = () => {
               </Grid>
             </Container>
           </Box>
-        //     <div className='sevices-container row mx-auto my-5' id="services">
-            
-        //     {
-        //         services.map(service => <Service 
-        //         key={service.key}
-        //         service={service}
-        //         ></Service>)
-        //     }
-
-        // </div>
     );
 };
 

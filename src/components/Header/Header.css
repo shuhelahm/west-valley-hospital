@@ -1,14 +1,4 @@
-
-
-.navbar-brand {
-    font-size: 24px !important;
-}
-
-.nav-link {
-    color: #ffffff !important;
-    font-size: 16px;
-}
-
-.user-name {
-    color: #ffffff;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.banner-description {
+  font-family: "Anton", sans-serif;
 }

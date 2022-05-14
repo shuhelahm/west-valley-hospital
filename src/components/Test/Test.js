@@ -5,7 +5,7 @@ const Test = ({test}) => {
     const {name, img, price} = test;
     return (
         <Grid item xs={4} sm={4} md={4}>
-            <Card>
+            <Card sx={{ minWidth: 275, height: 500 }}>
                 <CardMedia
                  component="img"
                  style={{
